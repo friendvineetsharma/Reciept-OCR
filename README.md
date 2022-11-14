@@ -17,7 +17,7 @@ spacy
 Used various methods of image processing such as Gaussian Blur, image dilation, Canny edge filtering, Contour detection, Perspective transform (Important). 
 To extract the text from the image we have used pytesseract.
 
-TO RUN THE CODE TYPE COMMAND IN COMMAND PROMPT
+TO RUN THE CODE TYPE COMMAND IN COMMAND PROMPT:-
 python Receipt-OCR.py (Path of image)
 
 After running the code you will get two files:
