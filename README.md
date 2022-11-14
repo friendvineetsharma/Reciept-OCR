@@ -4,14 +4,14 @@ Optical Character Recognition technique to read Receipts.
 An application which can extract text from the receipt and presents a json output in a uniform structure.
 
 Packages:
-Numpy
-OpenCV-Python
-Matplotlib
-sys
-skimage
-PIL
-pytessarect
-datefinder
+Numpy,
+OpenCV-Python,
+Matplotlib,
+sys,
+skimage,
+PIL,
+pytessarect,
+datefinder,
 spacy
 
 Used various methods of image processing such as Gaussian Blur, image dilation, Canny edge filtering, Contour detection, Perspective transform (Important). 
