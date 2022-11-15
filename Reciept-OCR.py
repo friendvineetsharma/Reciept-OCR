@@ -22,8 +22,6 @@ inpimage = cv2.imread(sys.argv[1],1)
 
 # Sample file out of the dataset
 image = cv2.imread(sys.argv[1],1)
-cv2.imshow('frame1', image)
-cv2.waitKey(0)
 
 def opencv_resize(image, ratio):
     width = int(image.shape[1] * ratio)
@@ -235,11 +233,8 @@ print(extracted_text)
 
 #SAVING THE OUTPUT IN A TEXT FILE
 output = open("output.txt", "w")
+output.write(str(text))
 output.write(str(extracted_text))
 
 output = open("output.txt", "r")
 print(output.read())
-
-
-
-
